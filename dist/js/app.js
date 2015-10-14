@@ -10054,7 +10054,7 @@
       data.push({
         data: _.zip(milestonesRange, evolution_line),
         lines: {
-          fillColor: "rgba(102,153,51,0.3)"
+          fillColor: "rgba(211, 232, 157,0.3)"
         }
       });
       team_increment_line = _.map(dataToDraw.milestones, function(ml) {
@@ -10063,7 +10063,7 @@
       data.push({
         data: _.zip(milestonesRange, team_increment_line),
         lines: {
-          fillColor: "rgba(153,51,51,0.3)"
+          fillColor: "rgba(229, 155, 150,0.3)"
         }
       });
       client_increment_line = _.map(dataToDraw.milestones, function(ml) {
@@ -10072,10 +10072,10 @@
       data.push({
         data: _.zip(milestonesRange, client_increment_line),
         lines: {
-          fillColor: "rgba(255,51,51,0.3)"
+          fillColor: "rgba(229, 155, 150,0.3)"
         }
       });
-      colors = ["rgba(0,0,0,1)", "rgba(120,120,120,0.2)", "rgba(102,153,51,1)", "rgba(153,51,51,1)", "rgba(255,51,51,1)"];
+      colors = ["rgba(0,0,0,1)", "rgba(120,120,120,0.2)", "rgba(211, 232, 157,1)", "rgba(229, 155, 150,1)", "rgba(229, 155, 150,1)"];
       options = {
         grid: {
           borderWidth: {
@@ -10702,7 +10702,7 @@
           return d.open_points;
         })),
         lines: {
-          fillColor: "rgba(102,153,51,0.3)"
+          fillColor: "rgba(211, 232, 157,0.3)"
         }
       });
       options = {
@@ -10749,7 +10749,7 @@
             lineWidth: 2
           }
         },
-        colors: ["rgba(102,153,51,1)", "rgba(120,120,120,0.2)"],
+        colors: ["rgba(211, 232, 157,1)", "rgba(120,120,120,0.2)"],
         tooltip: true,
         tooltipOpts: {
           content: function(label, xval, yval, flotItem) {
